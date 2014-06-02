@@ -4,6 +4,14 @@
 <html>
 <head>
 	<title>任务管理</title>
+	
+	<script>
+		$(document).ready(function() {
+			$("#quickstart").addClass("active");
+			$("#quickstart a").append("<span class='selected'></span>");
+			$("#taskmanager").addClass("active");
+		});
+	</script>
 </head>
 
 <body>

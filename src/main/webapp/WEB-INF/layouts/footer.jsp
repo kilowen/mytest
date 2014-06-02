@@ -1,5 +1,15 @@
 <%@ page language="java" pageEncoding="UTF-8" %>
-<div id="footer">
-	Copyright &copy; 2005-2012 <a href="http://www.springside.org.cn">springside.org.cn</a>
+
+<!-- BEGIN FOOTER -->
+<div class="footer">
+	<div class="footer-inner">
+		2013 &copy; Metronic by keenthemes.
+	</div>
+	<div class="footer-tools">
+		<span class="go-top">
+		<i class="fa fa-angle-up"></i>
+		</span>
+	</div>
 </div>
+<!-- END FOOTER -->
 

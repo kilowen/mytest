@@ -36,8 +36,5 @@
 	<!-- END PAGE HEADER-->  
 	
 	<div class="row">
-		<div>
-			<h2>Wecome to My New World ! </h2>
-		</div>
 	</div>
 </body>

@@ -32,7 +32,7 @@
 				<i class="fa fa-angle-right"></i>
 			</li>
 			<li>
-				<a href="#">Quick</a>
+				<a href="#">QuickStart</a>
 				<i class="fa fa-angle-right"></i>
 			</li>
 			<li><a href="#">TaskManager</a></li>	

@@ -34,7 +34,7 @@
 		<li id="quickstart"  class="">
 			<a href="javascript:;">
 			<i class="fa fa-leaf"></i> 
-			<span class="title">Quick</span>
+			<span class="title">QuickStart</span>
 			<span class="arrow "></span>
 			</a>
 			<ul class="sub-menu">
@@ -46,6 +46,9 @@
 				<li id="taskmanager">
 					<a href="${ctx}/task">TaskManager</a>
 				</li>
+				<li id="restfulapi">
+					<a href="${ctx}/api">RestfullAPI</a>
+				</li>
 			</ul>
 		</li>
 		<li id="dashboard" class="">
@@ -53,23 +56,6 @@
 			<i class="fa fa-leaf"></i> 
 			<span class="title">Dashboard</span>
 			</a>
-		</li>
-		<li id="layouts"  class="">
-			<a href="javascript:;">
-			<i class="fa fa-cogs"></i> 
-			<span class="title">Layouts</span>
-			<span class="arrow "></span>
-			</a>
-			<ul class="sub-menu">
-				<li >
-					<a href="layout_session_timeout.html">
-					<span class="badge badge-roundless badge-warning">new</span>Session Timeout</a>
-				</li>
-				<li >
-					<a href="layout_idle_timeout.html">
-					<span class="badge badge-roundless badge-important">new</span>User Idle Timeout</a>
-				</li>
-			</ul>
 		</li>
 	</ul>
 	<!-- END SIDEBAR MENU -->

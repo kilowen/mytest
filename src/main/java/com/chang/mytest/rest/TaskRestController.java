@@ -23,8 +23,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.util.UriComponentsBuilder;
+
 import com.chang.mytest.entity.Task;
 import com.chang.mytest.service.task.TaskService;
+
 import org.springside.modules.beanvalidator.BeanValidators;
 import org.springside.modules.web.MediaTypes;
 
@@ -61,6 +63,7 @@ public class TaskRestController {
 		return task;
 	}
 
+	@SuppressWarnings({ "unchecked", "rawtypes" })
 	@RequestMapping(method = RequestMethod.POST, consumes = MediaTypes.JSON)
 	public ResponseEntity<?> create(@RequestBody Task task, UriComponentsBuilder uriBuilder) {
 		// 调用JSR303 Bean Validator进行校验, 异常将由RestExceptionHandler统一处理.
